@@ -10,6 +10,14 @@ A modern starter template for building Angular applications with server-side ren
 - [Commitlint](https://commitlint.js.org) for commit message consistency
 - Ready-to-deploy with [Vercel](https://vercel.com) (via `vercel.json`)
 
+## About this project
+
+This starter is part of the [BuilderKit](https://builderkit.dev) ecosystem — A modern Angular Starter Kit for building real applications faster.
+
+Whether you're just exploring server-side rendering with Angular or looking to go beyond with a more flexible setup, this repo gives you a minimal but solid foundation.
+
+Check out [builderkit.dev](https://builderkit.dev) for more tools, components, and resources.
+
 ## Development server
 
 To start a local development server, run:
