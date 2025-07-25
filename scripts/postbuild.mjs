@@ -8,7 +8,7 @@ const __dirname = path.dirname(__filename);
 
 const distDir = path.resolve(
   __dirname,
-  '../../dist/angular-hono-ssr-starter/browser'
+  '../dist/angular-hono-ssr-starter/browser'
 );
 const csrFile = path.join(distDir, 'index.csr.html');
 
