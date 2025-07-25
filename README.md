@@ -1,6 +1,14 @@
-# AngularHonoSsrStarter
+# Angular Hono SSR Starter
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.1.3.
+A modern starter template for building Angular applications with server-side rendering (SSR) powered by [Hono](https://hono.dev).
+
+## Features
+
+- **Angular SSR** powered by [Hono](https://hono.dev)
+- [TailwindCSS](https://tailwindcss.com) for utility-first styling
+- [ESLint](https://eslint.org) and [Prettier](https://prettier.io) for code quality and formatting
+- [Commitlint](https://commitlint.js.org) for commit message consistency
+- Ready-to-deploy with [Vercel](https://vercel.com) (via `vercel.json`)
 
 ## Development server
 

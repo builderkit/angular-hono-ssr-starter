@@ -1,0 +1,22 @@
+{
+  "printWidth": 80,
+  "semi": true,
+  "bracketSameLine": false,
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "singleAttributePerLine": true,
+  "tailwindStylesheet": "./src/styles.css",
+  "plugins": [
+    "prettier-plugin-packagejson",
+    "prettier-plugin-tailwindcss"
+  ],
+  "overrides": [{
+  "files": "*.html",
+  "options": {
+    "parser": "angular"
+  }
+}]
+}
