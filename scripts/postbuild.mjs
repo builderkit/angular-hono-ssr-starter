@@ -6,7 +6,10 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const distDir = path.resolve(__dirname, '../../dist/builderkit/browser');
+const distDir = path.resolve(
+  __dirname,
+  '../../dist/angular-hono-ssr-starter/browser'
+);
 const csrFile = path.join(distDir, 'index.csr.html');
 
 try {
