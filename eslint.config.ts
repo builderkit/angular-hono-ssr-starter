@@ -14,16 +14,6 @@ export default defineConfig(
   // Base configs
   eslint.configs.recommended,
 
-  // Globals
-  {
-    languageOptions: {
-      globals: {
-        ...globals.node,
-        ...globals.browser,
-      },
-    },
-  },
-
   // Unused imports
   {
     plugins: {
@@ -52,9 +42,16 @@ export default defineConfig(
       'perfectionist/sort-imports': [
         'error',
         {
+          customGroups: [
+            {
+              groupName: 'angular',
+              elementNamePattern: '@angular',
+            },
+          ],
           groups: [
             'type-import',
             'value-builtin',
+            'angular',
             'value-external',
             'type-internal',
             'value-internal',
@@ -84,6 +81,10 @@ export default defineConfig(
       jsdoc.configs['flat/stylistic-typescript'],
     ],
     languageOptions: {
+      globals: {
+        ...globals.node,
+        ...globals.browser,
+      },
       parserOptions: {
         projectService: true,
         tsconfigRootDir: import.meta.dirname,

@@ -8,6 +8,8 @@ const Configuration: UserConfig = {
       'always',
       [
         'build',
+        'chore',
+        'ci',
         'docs',
         'feat',
         'fix',

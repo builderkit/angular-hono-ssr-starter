@@ -34,6 +34,9 @@ import { RouterLink } from '@angular/router';
       <section class="rounded-xl bg-gray-100 p-4 text-sm leading-relaxed">
         <p><strong>SSR framework:</strong> Hono</p>
         <p><strong>Frontend:</strong> Angular with standalone components</p>
+        <p>
+          <strong>Testing:</strong> Vitest with &#64;angular/build:unit-test
+        </p>
         <p><strong>Styling:</strong> TailwindCSS</p>
         <p><strong>Deployment:</strong> Ready for Vercel</p>
       </section>
