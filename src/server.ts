@@ -45,7 +45,9 @@ app.use(
  * Handle SSR for rest of the routes using Angular App Engine
  */
 app.use('*', async (c, next) => {
-  const angularApp = new AngularAppEngine();
+  const angularApp = new AngularAppEngine({
+    allowedHosts: ['*.vercel.app'],
+  });
   const response = await angularApp.handle(c.req.raw);
   if (response) {
     return response;
